@@ -18,7 +18,7 @@ Mais do que apenas realizar cálculos, o objetivo do projeto é praticar **arqui
 
 #### ◌ Preview
 
-![Numify Preview](/public/preview.png)
+![Numify Preview](/public/Preview.png)
 
 ---
 
