@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 280 30% 96%;
+    --foreground: 280 40% 15%;
+
+    --card: 300 30% 95%;
+    --card-foreground: 280 40% 15%;
+
+    --popover: 300 30% 95%;
+    --popover-foreground: 280 40% 15%;
+
+    --primary: 280 60% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 330 60% 85%;
+    --secondary-foreground: 280 40% 15%;
+
+    --muted: 280 20% 90%;
+    --muted-foreground: 280 15% 50%;
+
+    --accent: 330 70% 75%;
+    --accent-foreground: 280 40% 15%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 280 30% 85%;
+    --input: 280 30% 85%;
+    --ring: 280 60% 45%;
+
+    --radius: 1rem;
+
+    --kuromi-dark: 275 50% 25%;
+    --kuromi-purple: 280 60% 45%;
+    --kuromi-pink: 330 70% 80%;
+    --kuromi-light: 280 30% 96%;
+
+    --sidebar-background: 280 30% 96%;
+    --sidebar-foreground: 280 40% 15%;
+    --sidebar-primary: 280 60% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 330 70% 75%;
+    --sidebar-accent-foreground: 280 40% 15%;
+    --sidebar-border: 280 30% 85%;
+    --sidebar-ring: 280 60% 45%;
+  }
+}
+
+@font-face {
+  font-family: 'Kawaii';
+  src: local('Comic Sans MS'), local('Chalkboard SE'), local('Arial Rounded MT Bold');
+}
+
+body {
+  font-family: 'Kawaii', 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-18px) rotate(8deg); }
+}
