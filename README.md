@@ -24,6 +24,8 @@ Mais do que apenas realizar cálculos, o objetivo do projeto é praticar **arqui
 
 #### ◌ Live Demo
 
+https://numify-beryl.vercel.app
+
 ---
 
 #### ◌ Funcionalidades
